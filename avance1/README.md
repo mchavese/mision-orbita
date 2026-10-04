@@ -4,7 +4,7 @@ Proyecto desarrollado para el curso **SOFT-01: Principios de Programación 1** (
 
 ## Integrantes del Grupo
 * Mario José Chaves Eraso
-* Roowalf (Nombre y Apellidos del compañero)
+* (Nombre y Apellidos del compañero)
 
 ---
 
@@ -23,9 +23,9 @@ Este sistema simula la planificación y preparación de misiones espaciales en P
 
 ---
 
-## Instrucciones de Ejecución
-Para ejecutar cualquiera de los programas desde la terminal en Linux/macOS/Windows, ubíquese en la carpeta principal del proyecto y ejecute el comando correspondiente:
+
 
 1. **Ejercicio 1 (Cálculo de recursos):**
    ```bash
    python3 avance1/ejercicio1_recursos.py
+
