@@ -1,4 +1,4 @@
-# Ejercicio 6. Actividades de exploración científica
+# Ejercicio 7. Actividades de exploración científica
 
 **Misión Órbita | Avance 2**  
 **Curso:** SOFT-01 Principios de Programación 1 - Sección SCV0  
