@@ -15,7 +15,7 @@ Permitir a la tripulación seleccionar y ejecutar actividades de exploración ci
 ## 2. Análisis de entradas, proceso y salidas
 
 **Tabla 1**  
-*Análisis de entradas, proceso y salidas del ejercicio 6*
+*Análisis de entradas, proceso y salidas del ejercicio 7*
 
 | Elemento | Descripción |
 | :--- | :--- |
@@ -55,7 +55,7 @@ Siguiendo la convención definida en el proyecto:
 ## 5. Tabla de variables y constantes
 
 **Tabla 3**  
-*Variables y constantes del ejercicio 6*
+*Variables y constantes del ejercicio 7*
 
 | Identificador | Tipo | Clasificación | Valor inicial / restricción | Descripción |
 | :--- | :---: | :--- | :--- | :--- |
@@ -81,7 +81,7 @@ Siguiendo la convención definida en el proyecto:
 ## 6. Mensajes del programa
 
 **Tabla 4**  
-*Mensajes del programa del ejercicio 6*
+*Mensajes del programa del ejercicio 7*
 
 | Condición | Mensaje |
 | :--- | :--- |
@@ -109,7 +109,7 @@ Siguiendo la convención definida en el proyecto:
 ### CP-06-01 — Ejecución de las tres actividades con energía suficiente
 
 **Tabla 5**  
-*Caso de prueba CP-06-01 del ejercicio 6*
+*Caso de prueba CP-06-01 del ejercicio 7*
 
 | Campo | Contenido |
 | :--- | :--- |
@@ -128,12 +128,12 @@ Siguiendo la convención definida en el proyecto:
 ### CP-06-02 — Energía insuficiente y selección de actividad alternativa
 
 **Tabla 6**  
-*Caso de prueba CP-06-02 del ejercicio 6*
+*Caso de prueba CP-06-02 del ejercicio 7*
 
 | Campo | Contenido |
 | :--- | :--- |
 | **ID** | CP-06-02 |
-| **Ejercicio** | Ejercicio 6 |
+| **Ejercicio** | Ejercicio 7 |
 | **Escenario** | Energía insuficiente para la opción 1, realización de opción 2 y agotamiento de energía para opción 3 |
 | **Datos de entrada** | `nombre_mision = Marte II`; `energia_disponible = 2`; opciones: `1`, `2`, `3`, `4` |
 | **Resultado esperado** | Rechaza opción 1 por falta de energía; ejecuta opción 2 (+8 puntos, energía queda en 0); rechaza opción 3 por falta de energía. Total actividades: 1; Energía consumida: 2; Energía restante: 0; Puntaje científico: 8; Estado: Actividades científicas completadas. |
@@ -147,12 +147,12 @@ Siguiendo la convención definida en el proyecto:
 ### CP-06-03 — Opción inválida y repetición de una misma actividad
 
 **Tabla 7**  
-*Caso de prueba CP-06-03 del ejercicio 6*
+*Caso de prueba CP-06-03 del ejercicio 7*
 
 | Campo | Contenido |
 | :--- | :--- |
 | **ID** | CP-06-03 |
-| **Ejercicio** | Ejercicio 6 |
+| **Ejercicio** | Ejercicio 7 |
 | **Escenario** | Ingreso de opción inválida (`9`) y ejecución repetida de la opción `3` |
 | **Datos de entrada** | `nombre_mision = Europa III`; `energia_disponible = 5`; opciones: `9`, `3`, `3`, `4` |
 | **Resultado esperado** | Muestra mensaje de opción no válida para `9`; ejecuta dos capturas de fotografías. Muestras: 0; Análisis: 0; Fotografías: 2; Total actividades: 2; Energía consumida: 2; Energía restante: 3; Puntaje científico: 10; Estado: Actividades científicas completadas. |
@@ -166,12 +166,12 @@ Siguiendo la convención definida en el proyecto:
 ### CP-06-04 — Finalización inmediata sin realizar actividades
 
 **Tabla 8**  
-*Caso de prueba CP-06-04 del ejercicio 6*
+*Caso de prueba CP-06-04 del ejercicio 7*
 
 | Campo | Contenido |
 | :--- | :--- |
 | **ID** | CP-06-04 |
-| **Ejercicio** | Ejercicio 6 |
+| **Ejercicio** | Ejercicio 7 |
 | **Escenario** | El usuario finaliza la exploración en la primera iteración del menú |
 | **Datos de entrada** | `nombre_mision = Luna IV`; `energia_disponible = 10`; opción: `4` |
 | **Resultado esperado** | Finaliza sin realizar actividades. Total actividades: 0; Energía consumida: 0; Energía restante: 10; Puntaje científico: 0; Estado: No se realizaron actividades científicas. |
