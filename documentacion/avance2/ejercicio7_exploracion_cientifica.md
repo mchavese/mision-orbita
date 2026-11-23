@@ -2,7 +2,7 @@
 
 **Misión Órbita | Avance 2**  
 **Curso:** SOFT-01 Principios de Programación 1 - Sección SCV0  
-**Archivo fuente:** `avance2/ejercicio6_exploracion_cientifica.py`
+**Archivo fuente:** `avance2/ejercicio7_exploracion_cientifica.py`
 
 ---
 
@@ -98,7 +98,7 @@ Siguiendo la convención definida en el proyecto:
 
 ## 7. Diagrama de flujo
 
-![Diagrama de flujo del Ejercicio 6](diagrama_flujo_ejercicio6.png)
+![Diagrama de flujo del Ejercicio 7](diagrama_flujo_ejercicio7.png)
 
 *Nota: los óvalos representan inicio y fin; los paralelogramos, entradas y salidas; los rectángulos, procesos; y los rombos, decisiones y estructuras de control (`while`, `match-case` e `if`).*
 
@@ -106,33 +106,33 @@ Siguiendo la convención definida en el proyecto:
 
 ## 8. Casos de prueba y evidencias
 
-### CP-06-01 — Ejecución de las tres actividades con energía suficiente
+### CP-07-01 — Ejecución de las tres actividades con energía suficiente
 
 **Tabla 5**  
-*Caso de prueba CP-06-01 del ejercicio 7*
+*Caso de prueba CP-07-01 del ejercicio 7*
 
 | Campo | Contenido |
 | :--- | :--- |
-| **ID** | CP-06-01 |
-| **Ejercicio** | Ejercicio 6 |
+| **ID** | CP-07-01 |
+| **Ejercicio** | Ejercicio 7 |
 | **Escenario** | Ejecución de las tres actividades científicas con energía suficiente |
 | **Datos de entrada** | `nombre_mision = Explorador I`; `energia_disponible = 10`; opciones: `1`, `2`, `3`, `4` |
 | **Resultado esperado** | Muestras: 1; Análisis: 1; Fotografías: 1; Total actividades: 3; Energía consumida: 6; Energía restante: 4; Puntaje científico: 23; Estado: Actividades científicas completadas. |
 | **Resultado obtenido** | Igual al esperado |
 | **Estado** | Aprobado |
 
-![Captura CP-06-01](captura_cp06_01.png)
+![Captura CP-07-01](captura_cp07_01.png)
 
 ---
 
-### CP-06-02 — Energía insuficiente y selección de actividad alternativa
+### CP-07-02 — Energía insuficiente y selección de actividad alternativa
 
 **Tabla 6**  
-*Caso de prueba CP-06-02 del ejercicio 7*
+*Caso de prueba CP-07-02 del ejercicio 7*
 
 | Campo | Contenido |
 | :--- | :--- |
-| **ID** | CP-06-02 |
+| **ID** | CP-07-02 |
 | **Ejercicio** | Ejercicio 7 |
 | **Escenario** | Energía insuficiente para la opción 1, realización de opción 2 y agotamiento de energía para opción 3 |
 | **Datos de entrada** | `nombre_mision = Marte II`; `energia_disponible = 2`; opciones: `1`, `2`, `3`, `4` |
@@ -140,18 +140,18 @@ Siguiendo la convención definida en el proyecto:
 | **Resultado obtenido** | Igual al esperado |
 | **Estado** | Aprobado |
 
-![Captura CP-06-02](captura_cp06_02.png)
+![Captura CP-07-02](captura_cp07_02.png)
 
 ---
 
-### CP-06-03 — Opción inválida y repetición de una misma actividad
+### CP-07-03 — Opción inválida y repetición de una misma actividad
 
 **Tabla 7**  
-*Caso de prueba CP-06-03 del ejercicio 7*
+*Caso de prueba CP-07-03 del ejercicio 7*
 
 | Campo | Contenido |
 | :--- | :--- |
-| **ID** | CP-06-03 |
+| **ID** | CP-07-03 |
 | **Ejercicio** | Ejercicio 7 |
 | **Escenario** | Ingreso de opción inválida (`9`) y ejecución repetida de la opción `3` |
 | **Datos de entrada** | `nombre_mision = Europa III`; `energia_disponible = 5`; opciones: `9`, `3`, `3`, `4` |
@@ -159,18 +159,18 @@ Siguiendo la convención definida en el proyecto:
 | **Resultado obtenido** | Igual al esperado |
 | **Estado** | Aprobado |
 
-![Captura CP-06-03](captura_cp06_03.png)
+![Captura CP-07-03](captura_cp07_03.png)
 
 ---
 
-### CP-06-04 — Finalización inmediata sin realizar actividades
+### CP-07-04 — Finalización inmediata sin realizar actividades
 
 **Tabla 8**  
-*Caso de prueba CP-06-04 del ejercicio 7*
+*Caso de prueba CP-07-04 del ejercicio 7*
 
 | Campo | Contenido |
 | :--- | :--- |
-| **ID** | CP-06-04 |
+| **ID** | CP-07-04 |
 | **Ejercicio** | Ejercicio 7 |
 | **Escenario** | El usuario finaliza la exploración en la primera iteración del menú |
 | **Datos de entrada** | `nombre_mision = Luna IV`; `energia_disponible = 10`; opción: `4` |
@@ -178,5 +178,4 @@ Siguiendo la convención definida en el proyecto:
 | **Resultado obtenido** | Igual al esperado |
 | **Estado** | Aprobado |
 
-![Captura CP-06-04](captura_cp06_04.png)
-
+![Captura CP-07-04](captura_cp07_04.png)

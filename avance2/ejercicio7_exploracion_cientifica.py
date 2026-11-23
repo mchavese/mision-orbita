@@ -1,5 +1,5 @@
 # ====================================================================
-# Archivo: ejercicio6_exploracion_cientifica.py
+# Archivo: ejercicio7_exploracion_cientifica.py
 # Curso: SOFT-01 Principios de Programación 1 - Sección SCV0
 # Fecha: Noviembre 2026
 # Versión: 1.0
