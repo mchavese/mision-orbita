@@ -6,6 +6,7 @@ Proyecto desarrollado para el curso **SOFT-01: Principios de Programación 1** (
 
 - Mario José Chaves Eraso
 - José Francisco Ramirez Blandon
+- edgar luis alfaro quieos
 
 ## Descripción del Proyecto
 
